@@ -20,7 +20,6 @@ requirements:
     - pip
   run:
     - python
-    - async_timeout >=2.0,<4.0
 
 test:
   imports:
