@@ -1,5 +1,5 @@
 {% set name = "asgiref" %}
-{% set version = "3.2.3" %}
+{% set version = "3.2.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 7e06d934a7718bf3975acbf87780ba678957b87c7adc056f13b6215d610695a0
+  sha256: f07043512078c76bb28a62fd1e327876599062b5f0aea60ed1d9cabc42e95fe2
 
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
@@ -30,7 +30,7 @@ about:
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE
-  summary: 'ASGI in-memory channel layer'
+  summary: ASGI in-memory channel layer
   doc_url: https://asgi.readthedocs.io/en/latest/
 
 extra:
