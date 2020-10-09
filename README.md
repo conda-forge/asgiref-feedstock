@@ -5,11 +5,11 @@ Home: https://github.com/django/asgiref
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/asgiref-feedstock/blob/master/LICENSE.txt)
 
 Summary: ASGI in-memory channel layer
 
-
+Documentation: https://asgi.readthedocs.io/en/latest/
 
 Current build status
 ====================
