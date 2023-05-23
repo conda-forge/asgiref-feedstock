@@ -1,11 +1,11 @@
-About asgiref
-=============
+About asgiref-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/asgiref-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/django/asgiref
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/asgiref-feedstock/blob/main/LICENSE.txt)
 
 Summary: ASGI in-memory channel layer
 
