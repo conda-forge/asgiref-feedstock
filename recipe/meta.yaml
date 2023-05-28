@@ -1,5 +1,5 @@
 {% set name = "asgiref" %}
-{% set version = "3.6.0" %}
+{% set version = "3.7.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 9567dfe7bd8d3c8c892227827c41cce860b368104c3431da67a0c5a65a949506
+  sha256: 9e0ce3aa93a819ba5b45120216b23878cf6e8525eb3848653452b4192b92afed
 
 build:
   noarch: python
@@ -16,11 +16,11 @@ build:
 
 requirements:
   host:
-    - python >=3.6
+    - python >=3.7
     - pip
   run:
-    - python >=3.6
-    - typing_extensions
+    - python >=3.7
+    - typing_extensions >=4
 
 test:
   imports:
