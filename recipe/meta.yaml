@@ -1,5 +1,5 @@
 {% set name = "asgiref" %}
-{% set version = "3.10.0" %}
+{% set version = "3.11.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: d89f2d8cd8b56dada7d52fa7dc8075baa08fb836560710d38c292a7a3f78c04e
+  sha256: 13acff32519542a1736223fb79a715acdebe24286d98e8b164a73085f40da2c4
 
 build:
   noarch: python
