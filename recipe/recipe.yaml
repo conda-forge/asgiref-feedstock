@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: asgiref
-  version: 3.11.0
+  version: "3.11.1"
 
 package:
   name: ${{ name|lower }}
@@ -10,10 +10,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name }}-${{ version }}.tar.gz
-  sha256: 13acff32519542a1736223fb79a715acdebe24286d98e8b164a73085f40da2c4
+  sha256: 5f184dc43b7e763efe848065441eac62229c9f7b0475f41f80e207a114eda4ce
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: ${{ PYTHON }} -m pip install . --no-deps -vv
 
