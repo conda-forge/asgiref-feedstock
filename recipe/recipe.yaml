@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: asgiref
-  version: "3.11.1"
+  version: "3.12.1"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name }}-${{ version }}.tar.gz
-  sha256: 5f184dc43b7e763efe848065441eac62229c9f7b0475f41f80e207a114eda4ce
+  sha256: 59dcb51c272ad209d59bed5708a64a333083e86017d7fcdd67498eeab7784340
 
 build:
   number: 0
