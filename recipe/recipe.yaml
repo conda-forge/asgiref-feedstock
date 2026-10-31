@@ -30,7 +30,9 @@ tests:
   - python:
       imports:
         - asgiref
-      python_version: ${{ python_min }}.*
+      python_version:
+        - ${{ python_min }}.*
+        - "*"
 about:
   license: BSD-3-Clause
   license_file: LICENSE
