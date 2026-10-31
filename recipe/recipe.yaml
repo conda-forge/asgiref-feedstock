@@ -3,6 +3,7 @@ schema_version: 1
 context:
   name: asgiref
   version: "3.13.0"
+  python_min: "3.11"
 
 package:
   name: ${{ name|lower }}
@@ -24,7 +25,6 @@ requirements:
     - setuptools
   run:
     - python >=${{ python_min }}
-    - typing_extensions >=4
 
 tests:
   - python:
